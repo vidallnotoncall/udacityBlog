@@ -1,0 +1,54 @@
+/*styling relating to the card sections*/
+.card{
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #fff
+}
+
+.body > .card{
+  height: 600px;
+}
+.body > .card > button{
+  background-color: #fff;
+  color: #dc143c;
+  border: 2px solid #dc143c;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bio-card{
+  background-image: url(/images/beth-hope-h_qQdUOxQ9Y-unsplash.jpg);
+  background-position: top;
+  background-size: contain;
+}
+#bio-background{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#bio-picture{
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+  object-position: center top;
+  margin-top: 10px;
+}
+.bio-info{
+  background-color: #fff;
+  padding: 2px 5px 2px 5px;
+}
+.newsletter-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+.newsletter-card > button{
+  background-color: #dc143c;
+  color: #fff;
+  border: 2px solid #dc143c;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
