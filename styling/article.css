@@ -1,0 +1,43 @@
+/*styling relating to the index page*/
+.layout-article {
+  width: 98vw;
+  display: grid;
+  grid:
+    "header header header  header header header header header" auto
+    ". body body body body rightSide rightSide ." 1fr
+    "footer footer footer footer footer footer footer footer" auto
+    / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  grid-area: header;
+  width: 100%;
+}
+.article-main {
+  grid-area: body;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1px;
+  background-color: #fff;
+}
+.rightSide {
+  grid-area: rightSide;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(47, 47, 47);
+  color: #dc143c;
+  text-align: center;
+  padding: 10px;
+}
+/*tablets and phones*/
+@media only screen and (max-width: 768px) {
+  .layout-article {
+    display: flex;
+    flex-direction: column;
+  }
+}

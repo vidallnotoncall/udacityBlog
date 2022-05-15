@@ -16,7 +16,7 @@
   grid-area: header;
   width: 100%;
 }
-.body {
+.index-main {
   grid-area: body;
 }
 .rightSide {
@@ -27,5 +27,14 @@
   grid-area: footer;
   background-color: rgb(47, 47, 47);
   color: #dc143c;
+  text-align: center;
+  padding: 10px;
 }
 
+/*tablets and phones*/
+@media only screen and (max-width: 768px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+}

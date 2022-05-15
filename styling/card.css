@@ -1,32 +1,33 @@
 /*styling relating to the card sections*/
-.card{
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+.card {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
   text-align: center;
-  background-color: #fff
+  background-color: #fff;
 }
 
-.body > .card{
+.index-main > .card {
   height: 600px;
 }
-.body > .card > button{
+.index-main > .card > button {
   background-color: #fff;
   color: #dc143c;
   border: 2px solid #dc143c;
   font-size: 16px;
   cursor: pointer;
 }
-.bio-card{
+.bio-card {
   background-image: url(/images/beth-hope-h_qQdUOxQ9Y-unsplash.jpg);
   background-position: top;
   background-size: contain;
 }
-#bio-background{
+#bio-background {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-#bio-picture{
+#bio-picture {
   border-radius: 50%;
   height: 50%;
   width: 50%;
@@ -34,21 +35,31 @@
   object-position: center top;
   margin-top: 10px;
 }
-.bio-info{
+.bio-info {
   background-color: #fff;
   padding: 2px 5px 2px 5px;
 }
-.newsletter-card{
+.newsletter-card {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 15px;
 }
-.newsletter-card > button{
+.newsletter-card > button {
   background-color: #dc143c;
   color: #fff;
   border: 2px solid #dc143c;
   font-size: 16px;
   cursor: pointer;
   margin-top: 5px;
+}
+
+.author-card{
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  margin: 0px;
+}
+#author-description{
+  padding: 2px;
 }

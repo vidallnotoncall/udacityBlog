@@ -13,7 +13,13 @@ img{
 a{
   text-decoration: none;
 }
-
+li{
+  list-style-type: none;
+}
+figcaption{
+  text-align: center;  
+  padding: 1px;
+}
 .navBar {
   display: flex;
   flex-direction: row;
