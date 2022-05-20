@@ -23,16 +23,12 @@
   padding: 1px;
   background-color: #fff;
 }
+
 .rightSide {
   grid-area: rightSide;
 }
-
-.footer {
-  grid-area: footer;
-  background-color: rgb(47, 47, 47);
-  color: #dc143c;
-  text-align: center;
-  padding: 10px;
+#article-title{
+  text-decoration: underline;
 }
 /*tablets and phones*/
 @media only screen and (max-width: 768px) {

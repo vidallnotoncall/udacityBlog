@@ -1,4 +1,4 @@
-/* css styling for default elements */
+/* css styling for default elements or elements carried from page to page*/
 h1,h2,h3 {
   font-family: "Montserrat", Courier, monospace;
 }
@@ -49,10 +49,19 @@ figcaption{
 #title-word{
   color: gold;
   font-style: italic;
+  font-weight: bold;
 }
 .social-media{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(47, 47, 47);
+  color: #dc143c;
+  text-align: center;
+  padding: 10px;
 }
